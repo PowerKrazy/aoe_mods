@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Unit art path information -->
+<Civ4ArtDefines xmlns="x-schema:ViciousSeas_CIV4ArtDefinesSchema.xml">
+	<UnitArtInfos>
+		<UnitArtInfo> <!-- UNIT_ANCIENT_SEA_SERPENT -->
+			<Type>ART_DEF_UNIT_ANCIENT_SEA_SERPENT</Type>
+			<Button>Art/Interface/Buttons/Units/Sea Serpent.dds</Button>
+			<fScale>0.50</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/animal/Sea Serpent/Water Lizard.nif</NIF>
+			<KFM>Art/animations/Dragon/dragon.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/horseshadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Center</ShadowAttachNode>
+				<fShadowScale>2</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>1.2</fBattleDistance>
+			<fRangedDeathTime>0.35</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_SEA_SERPENT</SelectionSound>
+			<ActionSound>AS3D_SEA_SERPENT</ActionSound>
+		</UnitArtInfo>
+		<UnitArtInfo> <!-- UNIT_GIANT_TORTOISE -->
+			<Type>ART_DEF_UNIT_TITAN_SHELL_TORTOISE</Type>
+			<Button>Art/Interface/Buttons/Units/Giant Tortoise.dds</Button>
+			<fScale>0.35</fScale>
+			<fInterfaceScale>0.6</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/animal/Giant Tortoise/WarElephant_Carthage.nif</NIF>
+			<KFM>Art/Units/animal/Giant Tortoise/WarElephant_Carthage.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/WarElephantShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+			<TrailDefinition>
+				<Texture>Art/Shared/water_ship_wake.dds</Texture>
+				<fWidth>1</fWidth>
+				<fLength>180</fLength>
+				<fTaper>1</fTaper>
+				<fFadeStartTime>0.2</fFadeStartTime>
+				<fFadeFalloff>0.35</fFadeFalloff>
+			</TrailDefinition>
+			<fBattleDistance>0.45</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bSmoothMove>1</bSmoothMove>
+			<fAngleInterpRate>720</fAngleInterpRate>
+			<fExchangeAngle>25</fExchangeAngle>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+	</UnitArtInfos>
+</Civ4ArtDefines>
