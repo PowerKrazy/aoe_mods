@@ -12,7 +12,7 @@
 				<BonusTypeStruct>
 					<BonusType>BONUS_CORAL_REEF</BonusType>
 					<bBonusMakesValid>1</bBonusMakesValid>
-					<bBonusTrade>1</bBonusTrade>
+					<bBonusTrade>0</bBonusTrade>
 					<iDiscoverRand>0</iDiscoverRand>
 					<iSpreadRand>1750</iSpreadRand>
 					<YieldChanges>
@@ -38,7 +38,7 @@
 				</TerrainMakesValid>
 			</TerrainMakesValids>
 			<ImprovementUpgrade>IMPROVEMENT_PIRATE_STRONGHOLD</ImprovementUpgrade>
-			<iAppearanceProbability>15</iAppearanceProbability>
+			<iAppearanceProbability>60</iAppearanceProbability>
 			<SpawnUnitType>UNIT_GALLEY</SpawnUnitType>
 			<ImmediateSpawnUnitType>UNIT_BOARDING_PARTY</ImmediateSpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ORC</SpawnUnitCiv>
@@ -61,7 +61,7 @@
 					<bGoodyClass>1</bGoodyClass>
 				</GoodyClass>
 			</GoodyClasses>
-			<iLairCreationWeight>45</iLairCreationWeight>
+			<iLairCreationWeight>80</iLairCreationWeight>
 			<LairCreationWeightTechs>
 				<LairCreationWeightTech>
 					<LairCreationWeightTechType>TECH_OPTICS</LairCreationWeightTechType>
@@ -156,7 +156,7 @@
 			</SpawnPromotions>
 			<GuardianPromotions>
 				<Promotion>PROMOTION_LEASH_1</Promotion>
-				<Promotion>PROMOTION_STIGMATA</Promotion>
+				<Promotion>PROMOTION_BOUNTY_HUNTER</Promotion>
 				<Promotion>PROMOTION_STRONG</Promotion>
 				<Promotion>PROMOTION_IRON_WEAPONS</Promotion>
 			</GuardianPromotions>
@@ -254,6 +254,7 @@
 			<bFort>1</bFort>
 			<bActsAsCity>1</bActsAsCity>
 			<bOutsideBorders>1</bOutsideBorders>
+			<bPermanent>1</bPermanent>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_OCEAN_DEEP</TerrainType>
@@ -275,7 +276,7 @@
 				</BonusTypeStruct>
 			</BonusTypeStructs>
 			<BonusConvert>BONUS_GIANT_KELP_LUMBER</BonusConvert>
-			<iAppearanceProbability>25</iAppearanceProbability>
+			<iAppearanceProbability>20</iAppearanceProbability>
 			<SpawnUnitType>UNIT_SEA_SERPENT</SpawnUnitType>
 			<ImmediateSpawnUnitType>UNIT_ANCIENT_SEA_SERPENT</ImmediateSpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ANIMAL</SpawnUnitCiv>
@@ -285,11 +286,8 @@
 			<iCultureControlStrength>3</iCultureControlStrength>
 			<iCultureCenterBonus>2</iCultureCenterBonus>
 			<bWater>1</bWater>
-			<SpawnPromotions>
-				<Promotion>PROMOTION_LEASH_3</Promotion>
-			</SpawnPromotions>
 			<GuardianPromotions>
-				<Promotion>PROMOTION_LEASH_1</Promotion>
+				<Promotion>PROMOTION_LEASH_3</Promotion>
 				<Promotion>PROMOTION_MARCH</Promotion>
 			</GuardianPromotions>
 		</ImprovementInfo>
@@ -302,6 +300,7 @@
 			<bFort>1</bFort>
 			<bActsAsCity>1</bActsAsCity>
 			<bOutsideBorders>1</bOutsideBorders>
+			<bPermanent>1</bPermanent>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_OCEAN_DEEP</TerrainType>
@@ -323,7 +322,7 @@
 				</BonusTypeStruct>
 			</BonusTypeStructs>
 			<BonusConvert>BONUS_TITAN_TURTLE_SCALES</BonusConvert>
-			<iAppearanceProbability>25</iAppearanceProbability>
+			<iAppearanceProbability>20</iAppearanceProbability>
 			<SpawnUnitType>UNIT_GIANT_TORTOISE</SpawnUnitType>
 			<ImmediateSpawnUnitType>UNIT_TITAN_SHELL_TURTLE</ImmediateSpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ANIMAL</SpawnUnitCiv>
@@ -333,11 +332,8 @@
 			<iCultureControlStrength>3</iCultureControlStrength>
 			<iCultureCenterBonus>2</iCultureCenterBonus>
 			<bWater>1</bWater>
-			<SpawnPromotions>
-				<Promotion>PROMOTION_LEASH_3</Promotion>
-			</SpawnPromotions>
 			<GuardianPromotions>
-				<Promotion>PROMOTION_LEASH_1</Promotion>
+				<Promotion>PROMOTION_LEASH_3</Promotion>
 				<Promotion>PROMOTION_TITAN_SCALE_PLATING</Promotion>
 			</GuardianPromotions>
 		</ImprovementInfo>
@@ -350,6 +346,7 @@
 			<bFort>1</bFort>
 			<bActsAsCity>1</bActsAsCity>
 			<bOutsideBorders>1</bOutsideBorders>
+			<bPermanent>1</bPermanent>
 			<iVisibilityChange>6</iVisibilityChange>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
@@ -372,9 +369,9 @@
 				</BonusTypeStruct>
 			</BonusTypeStructs>
 			<BonusConvert>BONUS_GIANT_KRAKEN_EYE</BonusConvert>
-			<iAppearanceProbability>25</iAppearanceProbability>
-			<SpawnUnitType>UNIT_WATER_ELEMENTAL</SpawnUnitType>
-			<ImmediateSpawnUnitType>UNIT_KRAKEN</ImmediateSpawnUnitType>
+			<iAppearanceProbability>20</iAppearanceProbability>
+			<SpawnUnitType>UNIT_KRAKEN</SpawnUnitType>
+			<ImmediateSpawnUnitType>UNIT_HIGH_PRIEST_OF_THE_OVERLORDS</ImmediateSpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_DEMON</SpawnUnitCiv>
 			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
 			<iSpawnAtOnceLimit>3</iSpawnAtOnceLimit>
@@ -384,12 +381,17 @@
 			<iLairTier>1</iLairTier>
 			<bWater>1</bWater>
 			<SpawnPromotions>
-				<Promotion>PROMOTION_LEASH_2</Promotion>
 				<Promotion>PROMOTION_STIGMATA</Promotion>
 			</SpawnPromotions>
 			<GuardianPromotions>
-				<Promotion>PROMOTION_LEASH_2</Promotion>
+				<Promotion>PROMOTION_LEASH_3</Promotion>
 				<Promotion>PROMOTION_STIGMATA</Promotion>
+				<Promotion>PROMOTION_WICKED</Promotion>
+				<Promotion>PROMOTION_CRAZED</Promotion>
+				<Promotion>PROMOTION_DROWNING_CREW</Promotion>
+				<Promotion>PROMOTION_COMMAND1</Promotion>
+				<Promotion>PROMOTION_COMMAND2</Promotion>
+				<Promotion>PROMOTION_COMMAND3</Promotion>
 			</GuardianPromotions>
 		</ImprovementInfo>
 		<ImprovementInfo><!-- Drowned Lair -->
@@ -407,7 +409,7 @@
 				</TerrainMakesValid>
 			</TerrainMakesValids>
 			<ImprovementUpgrade>IMPROVEMENT_DREDGE_HEEP</ImprovementUpgrade>
-			<iAppearanceProbability>15</iAppearanceProbability>
+			<iAppearanceProbability>50</iAppearanceProbability>
 			<SpawnUnitType>UNIT_DROWN</SpawnUnitType>
 			<ImmediateSpawnUnitType>UNIT_DROWN</ImmediateSpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_DEMON</SpawnUnitCiv>
@@ -430,7 +432,7 @@
 					<bGoodyClass>1</bGoodyClass>
 				</GoodyClass>
 			</GoodyClasses>
-			<iLairCreationWeight>40</iLairCreationWeight>
+			<iLairCreationWeight>80</iLairCreationWeight>
 			<LairCreationWeightTechs>
 				<LairCreationWeightTech>
 					<LairCreationWeightTechType>TECH_NECROMANCY</LairCreationWeightTechType>
